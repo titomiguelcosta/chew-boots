@@ -1,0 +1,21 @@
+{
+    "name": "titomiguelcosta/chew-boots",
+    "description": "Playground for AWS Batch and Symfony Console component",
+    "type": "project",
+    "require": {
+        "symfony/console": "^4.1",
+        "aws/aws-sdk-php": "^3.64"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChewBoots\\": "./"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tito Miguel Costa",
+            "email": "titomiguelcosta@gmail.com"
+        }
+    ]
+}
